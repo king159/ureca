@@ -8,9 +8,9 @@ of neural network that acts as the **statistic evaluation function** of
 the computer chess engine. We first label 6 million distinct positions of 
 games from [ChessBase 16](https://shop.chessbase.com/en/products/chessbase_16_mega_package?ref=RF191-8I2RXB2L67) and labeled by 
 [Stockfish 13](https://stockfishchess.org/blog/2021/stockfish-13/). Based on different point of views of the same
-position, we train autoencoder classifier with the 1-D vector which represents the position of the pieces, convolutional neural network
+chess position, we train autoencoder classifier with the 1-D vector which represents the position of the pieces, convolutional neural network
 with considering the position as an 8x8 image with multiple channels, and a neural network classifier from hand-craft features to classify the positions.
-Our best neural networks get more than 90% top-2 accuracy in this supervised
+Our best neural network gets more than 90% top-2 accuracy in this supervised
 7-class classification task.
 
 ## Poster
