@@ -13,6 +13,10 @@ with considering the position as an 8x8 image with multiple channels, and a neur
 Our best neural networks get more than 90% top-2 accuracy in this supervised
 7-class classification task.
 
+## Poster
+
+![alt text](https://github.com/king159/ureca/./URECA%20Poster.pdf)
+
 ## Code structure
 1. stockfinsh: Stockfish engines which are used to label the positions into 7 classes 
    1. stockfinsh12.exe
@@ -23,12 +27,11 @@ Our best neural networks get more than 90% top-2 accuracy in this supervised
 4. [pgn2fen.py](pgn2fen.py): The script to convert PGN to FEN
 5. [search_best.py](search_best.py): We use [optuna](https://optuna.org/) to find the best parameters
 6. [util.py](util.py): Conversion from FEN to different types of tensor for different models
-7. [report.pdf](report.pdf): Detailed report of this project
-8. scripts to label using the Stockfish engine
+7. scripts to label using the Stockfish engine
 
    1.[label_asyncio.py](label_asyncio.py)
 
    2.[label_thread.py](label_thread.py)
-
+8. [report.pdf](report.pdf): Detailed report of this project
 9. Due to the commercial constraints and the size of converted tensor file, all training data is not included in this repository.
 
