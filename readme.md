@@ -15,7 +15,7 @@ Our best neural networks get more than 90% top-2 accuracy in this supervised
 
 ## Poster
 
-![alt text](https://github.com/king159/ureca/./URECA%20Poster.pdf)
+![plot](poster.png)
 
 ## Code structure
 1. stockfinsh: Stockfish engines which are used to label the positions into 7 classes 
