@@ -9,8 +9,8 @@ the computer chess engine. We first label 6 million distinct positions of
 games from [ChessBase 16](https://shop.chessbase.com/en/products/chessbase_16_mega_package?ref=RF191-8I2RXB2L67) and labeled by 
 [Stockfish 13](https://stockfishchess.org/blog/2021/stockfish-13/). Based on different point of views of the same
 position, we train autoencoder classifier with the 1-D vector which represents the position of the pieces, convolutional neural network
-with consider the position as a 8x8 image with multiple channels, classifier, and a neural network classifier from hand-craft feature to classify the positions.
-Our best neural networks get more than 90% top-2 accuracy in the 
+with considering the position as an 8x8 image with multiple channels, and a neural network classifier from hand-craft features to classify the positions.
+Our best neural networks get more than 90% top-2 accuracy in this supervised
 7-class classification task.
 
 ## Code structure
@@ -31,3 +31,4 @@ Our best neural networks get more than 90% top-2 accuracy in the
    2.[label_thread.py](label_thread.py)
 
 9. Due to the commercial constraints and the size of converted tensor file, all training data is not included in this repository.
+
